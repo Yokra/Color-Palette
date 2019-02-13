@@ -1,0 +1,15 @@
+body{
+    font-family: "Apple Braille", monospace ;
+    font-size: 20px;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    margin-top: 25px;
+}
+
+p{
+    padding-top: 160px;
+}
