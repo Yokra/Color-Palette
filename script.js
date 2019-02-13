@@ -1,5 +1,14 @@
 "use strict";
 
+colorPicker.addEventListener("input", updateFirst, false);
+colorPicker.addEventListener("change", watchColorPicker, false);
+
+function watchColorPicker(event) {
+    document.querySelectorAll("choose").forEach(function(choose) {
+        choose.style.color = event.target.value;
+    });
+}
+
 function rgb (r, g, b) {
     r /= 255;
     g /= 255;
